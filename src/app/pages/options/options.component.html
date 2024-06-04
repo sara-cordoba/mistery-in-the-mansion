@@ -1,0 +1,32 @@
+<div id="game-container">
+    <div class="title-section">
+      <div id="title">
+        <h1>{{ "OPTIONS.title_options" | translate }}</h1>
+        <p>{{ "OPTIONS.description_options" | translate }}</p>
+      </div>
+  
+      <div class="options">
+        <div class="settings-sonido flex-container">
+          <p class="flex-name">{{ "OPTIONS.sound_options" | translate }}</p>
+          <button id="activate-sound" (click)="playSound()">{{ "OPTIONS.playsong_options" | translate }}</button>
+          <button id="deactivate-sound" (click)="stopSound()">{{ "OPTIONS.stopsong_options" | translate }}</button>
+        </div>
+  
+        <div class="settings-volumen flex-container">
+          <p class="flex-name">{{ "OPTIONS.soundvolume_options" | translate }}</p>
+          <input [(ngModel)]="volume" (input)="test($event)" type="range" id="volume-control" min="0" max="100" step="1">
+        </div>
+  
+        <div class="settings-languages flex-container">
+          <p class="flex-name">{{ "OPTIONS.languages_options" | translate }}</p>
+          <button id="lenguage-spanish" (click)="changeLanguage('es')">{{ "OPTIONS.langspanish_options" | translate }}</button>
+          <button id="lenguage-inglish" (click)="changeLanguage('en')">{{ "OPTIONS.langenglish_options" | translate }}</button>
+        </div>
+  
+        <div id="options-container">
+          <a routerLink=" " class="button-out-options" (click)="onOption(' ')">{{ "OPTIONS.btnreturn_options" | translate }}</a>
+        </div>
+      </div>
+    </div>
+  </div>
+  

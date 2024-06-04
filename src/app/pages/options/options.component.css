@@ -1,0 +1,73 @@
+.options {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.flex-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 15px;
+  width: 100%;
+}
+
+.flex-container p {
+  color: white;
+  font-size: 20px;
+  margin-right: 10px;
+  min-width: 150px;
+  flex-shrink: 0;
+}
+
+.button-group {
+  display: flex;
+  gap: 10px;
+}
+
+.flex-container button {
+  width: 140px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.settings-volumen input[type="range"] {
+  flex: 1;
+  padding: 0;
+  background-color: rgba(233, 211, 178, 0.1);
+  -webkit-appearance: none;
+  appearance: none;
+  cursor: pointer;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.settings-volumen input[type="range"]::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  margin-top: -1px;
+  width: 16px;
+  height: 16px;
+  background: #f7ce98;
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+.settings-volumen input[type="range"]::-moz-range-thumb {
+  width: 16px;
+  height: 16px;
+  background: #f7ce98;
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+.value.left,
+.value.right {
+  font-size: 15px;
+}
+
+#options-container .button-out-options {
+  margin-top: 100px;
+  margin-left: 175px;
+  width: auto;
+}

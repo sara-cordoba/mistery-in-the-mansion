@@ -1,0 +1,43 @@
+{
+  "INDEX": {
+    "title_index": "Nightmare in the Mansion"
+  },
+
+  "OPTIONS": {
+    "title_options": "Options",
+    "description_options": "Configure the game options",
+    "sound_options": "Sound",
+    "playsong_options": "Activate",
+    "stopsong_options": "Deactivate",
+    "soundvolume_options": "Sound Volume",
+    "languages_options": "Languages",
+    "langspanish_options": "Spanish",
+    "langenglish_options": "English",
+    "btnreturn_options": "Back"
+  },
+  "HOME": {
+    "title_home": "Nightmare in the Mansion of Secrets",
+    "description_home": "Explore the mysterious Mansion of Secrets and uncover the dark secrets it hides!",
+    "synopsis_home": "View synopsis",
+    "gameplay_home": "Play",
+    "loadgame_home": "Load Game",
+    "options_home": "Options",
+    "btnout_home": "Exit",
+    "tooltip_home": "Coming Soon",
+    "confirm_exit": "Are you sure you want to exit?"
+  },
+
+  "SYNOPSIS": {
+    "title_synopsis": "Story",
+    "part1_synopsis": "Max Chambers is a paranormal investigator with a long family history related to the Mansion of Secrets, an imposing residence located on the outskirts of the picturesque village of Riverside Hollow. From a young age, Max heard stories about the mansion, passed down through generations in his family. His great-grandfather, a respected architect of his time, was hired to work on the construction of the mansion in the late 19th century. According to family legend, Max's great-grandfather mysteriously disappeared while working on the mansion, and his body was never found nor was it discovered what happened to him.",
+    "part2_synopsis": "Over the years, Max has investigated the history of the Mansion of Secrets and the paranormal phenomena associated with it. However, his efforts have not produced significant results until, on the eve of Halloween, he receives an anonymous letter in his mailbox. The letter, written in irregular handwriting and stained with ink, invites him to visit the Mansion of Secrets on the night of October 31, promising to reveal hidden secrets and solve the mystery of his great-grandfather's disappearance.",
+    "part3_synopsis": "Intrigued by the letter and eager to uncover the truth behind the rumors that have haunted his family for generations, Max decides to accept the invitation and embarks on his journey to the Mansion of Secrets on Halloween night.",
+    "btnout_synopsis": "Back"
+  },
+
+  "LOADGAME": {
+    "title_loadgame": "Load Game",
+    "departure_loadgame": "Empty",
+    "btnout_loadgame": "Back"
+  }
+}

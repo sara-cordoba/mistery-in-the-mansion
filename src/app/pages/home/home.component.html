@@ -1,0 +1,16 @@
+<div id="game-container">
+    <div class="title-section">
+      <div id="title">
+        <h1 class="glowing-text">{{ "HOME.title_home" | translate }}</h1>
+        <p>{{ "HOME.description_home" | translate }}</p>
+        <a routerLink="synopsis" (click)="onOption('synopsis')">{{ "HOME.synopsis_home" | translate }}</a>
+      </div>
+      <div class="options">
+        <a class="button-play" data-bs-toggle="tooltip" data-bs-placement="right">{{ "HOME.gameplay_home" | translate }}</a>
+        <a routerLink="load-game" class="button-load" (click)="onOption('load-game')">{{ "HOME.loadgame_home" | translate }}</a>
+        <a routerLink="options" class="button-options" (click)="onOption('options')">{{ "HOME.options_home" | translate }}</a>
+        <a class="button-out" (click)="closeWindow()">{{ "HOME.btnout_home" | translate }}</a>
+      </div>
+    </div>
+  </div>
+  

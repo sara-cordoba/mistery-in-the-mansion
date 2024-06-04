@@ -1,0 +1,44 @@
+{
+  "INDEX": {
+    "title_index": "Pesadilla en la Mansion"
+  },
+
+  "OPTIONS": {
+    "title_options": "Opciones",
+    "description_options": "Configura las opciones del juego",
+    "sound_options": "Sonido",
+    "playsong_options": "Activar",
+    "stopsong_options": "Desactivar",
+    "soundvolume_options": "Volumen Sonido",
+    "languages_options": "Idiomas",
+    "langspanish_options": "Castellano",
+    "langenglish_options": "Inglés",
+    "btnreturn_options": "Volver"
+  },
+
+  "HOME": {
+    "title_home": "Pesadilla en la Mansion de los Secretos",
+    "description_home": "¡Explora la misteriosa Mansión de los Secretos y descubre los oscuros secretos que oculta!",
+    "synopsis_home": "Ver sinopsis",
+    "gameplay_home": "Jugar",
+    "loadgame_home": "Cargar Partida",
+    "options_home": "Opciones",
+    "btnout_home": "Salir",
+    "tooltip_home": "Próximamente",
+    "confirm_exit": "¿Estás seguro de que quieres salir?"
+  },
+
+  "SYNOPSIS": {
+    "title_synopsis": "Historia",
+    "part1_synopsis": "Max Chambers es un investigador paranormal con una larga historia familiar relacionada con la Mansión de los Secretos, una imponente residencia ubicada en las afueras del pintoresco pueblo de Riverside Hollow. Desde joven, Max escuchó historias sobre la mansión, transmitidas a través de generaciones en su familia. Su bisabuelo, un arquitecto respetado en su época, fue contratado para trabajar en la construcción de la mansión a finales del siglo XIX. Según la leyenda familiar, el bisabuelo de Max desapareció misteriosamente mientras trabajaba en la mansión, y nunca se encontró su cuerpo ni se descubrió lo que le sucedió.",
+    "part2_synopsis": "A lo largo de los años, Max ha investigado la historia de la Mansión de los Secretos y los fenómenos paranormales asociados con ella. Sin embargo, sus esfuerzos no han producido resultados significativos hasta que, en la víspera de Halloween, recibe una carta anónima en su buzón. La carta, escrita con una caligrafía irregular y manchada de tinta, lo invita a visitar la Mansión de los Secretos la noche del 31 de octubre, prometiendo revelar secretos ocultos y resolver el misterio de la desaparición de su bisabuelo.",
+    "part3_synopsis": "Intrigado por la carta y ansioso por descubrir la verdad detrás de los rumores que han perseguido a su familia durante generaciones, Max decide aceptar la invitación y emprende su viaje hacia la Mansión de los Secretos en la noche de Halloween.",
+    "btnout_synopsis": "Volver"
+  },
+
+  "LOADGAME": {
+    "title_loadgame": "Cargar Partida",
+    "departure_loadgame": "Vacío",
+    "btnout_loadgame": "Volver"
+  }
+}
