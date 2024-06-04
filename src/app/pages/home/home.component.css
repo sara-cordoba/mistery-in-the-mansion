@@ -5,3 +5,7 @@
 .button-play a:hover {
   background-color: #333 !important;
 }
+
+.synopsis-tittle {
+  color: white;
+}
